@@ -9,7 +9,7 @@ Shuowen Liang*, Sisi Li*, Qingyun Wang, Cen Zhang, Kaiquan Zhu, Tian Yang
 <img src="images/github.png" alt="图片5" width="600" height="300" align=center> 
 </p>
 
-## Brief Introduction
+## Introduction
 This is a model trained on the [diffusers](https://huggingface.co/docs/diffusers/index) framework that can generate 2D pose skeletons from generalized behaviour descriptions. It is used to enrich the guiding poses that can be used by pose controllable models such as ControlNet.
 Compared with the [diffusers](https://huggingface.co/docs/diffusers/index) framework, we take the following measures to achieve independent prediction of key points in the 2D pose skeleton.
 - We represent the 2D pose skeleton as a k-channel embedding, where **k** is the maximum number of key points.
